@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Menu Android</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <link href="Style-nav-bar.css" rel="stylesheet" type="text/css"/>
+        <script src="Script_Menu_Android.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">Clinique Chirugical</div>
+            <div class="hamburger">
+                <div class="line"></div> 
+                <div class="line"></div> 
+                <div class="line"></div> 
+            </div>
+            <nav class="nav-bar"> 
+                    <ul> 
+                          <li>   
+                             <a href="" class="active">Home</a>  
+                          </li> 
+                          <li>   
+                             <a href="" class="active">Votre Peau</a>  
+                          </li> 
+                          <li>   
+                             <a href="" class="active">Les soins</a>  
+                          </li> 
+                          <li>   
+                             <a href="" class="active">FAQ</a>  
+                          </li> 
+                          <li>   
+                             <a href="" class="active">Glossaire</a>  
+                          </li> 
+                           <li>   
+                             <a href="" class="active">Discuter</a>  
+                          </li> 
+                    </ul>
+            </nav> 
+        </header>
+        
+           <script> 
+           
+             hamburger=document.querySelector(".hamburger");
+             hamburger.onclick=function(){
+             navbar=document.querySelector(".nav-bar");
+             navbar.classList.toggle("active");
+                 }
+           </script>
+
+    </body>
+    </html>

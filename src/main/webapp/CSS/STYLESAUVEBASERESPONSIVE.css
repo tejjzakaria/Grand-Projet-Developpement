@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 14 nov. 2022, 11:20:50
+    Author     : a
+*/
+
+*{
+    margin: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+header,footer{
+    background-color: #222222;
+    opacity: 0.9;
+    padding: 25px;
+    color: #fff;
+}
+.img1{
+    margin-top: 10px;
+    width: 90%;
+    height: 400px;
+}
+aside{
+    /*background-color: #222222;*/
+    /*background-color: rgb(238,112,112);*/
+    background-color: #fff;
+    height: 900px;
+    width: 25%;
+    color: #fff;
+    margin-top:5px;
+}
+.container{
+    height:900px;
+    width: 75%;
+    border: solid 9px royalblue;
+    color: #fff;
+}
+footer{
+    margin-top: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+main{
+    border:solid 5px #EE2E02 ;
+    height: 13%;
+    color:  #222222;
+}
+
+section{
+    height: 60%;
+    border:solid 5px #EE2E02 ;
+    color:  #222222;
+}
+
+.last{
+    height:25%;
+    border:solid 5px #EE2E02 ;
+    color:  #222222;
+}
+
+.ad{
+    width: 25%;
+    border:solid 5px #EE2E02 ;
+}
+
+.img2{
+    width: 75%;
+}
+

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<link href="https://www.google.com/maps/place/Tweadup+Agence+digitale+boite+de+communication+agadir/@30.410672,-9.5561321,17z/data=!4m5!3m4!1s0xdb3b74c420dd339:0x4e233c3cdc007236!8m2!3d30.4107205!4d-9.5559512">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+
+
+<style>
+#contatti{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+
+</style>
+
+<body>
+<div class="row" id="contatti">
+<div class="container mt-5" >
+
+    <div class="row" style="height:550px;">
+      <div class="col-md-6 maps" >
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.257171241745!2d-9.558139884957823!3d30.41072510813118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b74c420dd339%3A0x4e233c3cdc007236!2sTweadup%20Agence%20digitale%20boite%20de%20communication%20agadir!5e1!3m2!1sfr!2sma!4v1676203555303!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+   <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0" style="border:0" allowfullscreen></iframe>--> 
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-uppercase mt-3 font-weight-bold text-white">Inscription Site</h2>
+
+    <!-- Début du formulaire  -->
+    
+        <form action="addUser.jsp" method="post" name="f">
+        
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text"  class="form-control mt-2" placeholder="login" required name="login">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Password" required name="password">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required name="email">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="téléphone" required name="tel">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Renseignement" rows="3" required name="info"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  &nbsp&nbsp&nbsp&nbspAccepter les conditions d'inscription
+                </label>
+              </div>
+            </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-light" type="submit">Login</button>
+            </div>
+          </div>
+        </form>
+
+    <!-- Fin du formulaire  -->
+
+        <div class="text-white">
+        <h2 class="text-uppercase mt-4 font-weight-bold">Weadup Ingenieurie Agadir</h2>
+
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+212) 123456</a><br>
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+212) 123456</a><br>
+        <i class="fa fa-envelope mt-3"></i> <a href="">info@test.it</a><br>
+        <i class="fas fa-globe mt-3"></i> Développement web 1 , 1, 00184 Agadir<br>
+        <i class="fas fa-globe mt-3"></i> Développment web 2, 2, 00184 Agadir<br>
+        <div class="my-4">
+        <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook fa-3x pr-4"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+</div>
+
+<div class="row text-center bg-success text-white" id="author">
+  <div class="col-12 mt-4 h3 ">
+  <a href="https://tweadup.com/">S'informer</a>
+</div>
+<div class="col-12 my-2">
+<a href="https://www.linkedin.com/in/paolofattoruso/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+</div>
+</div>
+</body>
+</html>
+
+

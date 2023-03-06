@@ -1,0 +1,21 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 nov. 2022, 20:51:43
+    Author     : a
+*/
+#submit{
+    width: 60px;
+    height:20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fefefe;
+    background: #11101b;
+    font-size: 12px;
+}
+#log{
+    width:80px;
+}

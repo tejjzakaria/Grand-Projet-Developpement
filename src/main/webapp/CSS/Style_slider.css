@@ -1,0 +1,69 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 nov. 2022, 19:41:33
+    Author     : a
+*/
+
+/*la partie slider */
+#slider{
+    margin-top: 10px;
+    
+  
+}
+#img{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+#btn_left{
+    height:550px;
+    width:200px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 15px;
+
+}
+.left{
+    width: 60px;
+    height: 60px;
+    top: 80%;
+    left: 200px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+#btn_right{
+    height:550px;
+    width:200px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 15px;
+}
+.right{
+    width: 60px;
+    height: 60px;
+    top: 80%;
+    right: -200px;
+    position: absolute;
+    opacity: 0.3;
+
+}
+.left:hover{
+    opacity: 1;
+    
+}
+.right:hover{
+    opacity: 1;
+}
+
+.cellules:hover{
+    color: white;
+    background-color: 	#871F78;
+    font-weight: bold;
+    border: none;
+}
